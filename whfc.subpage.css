@@ -723,12 +723,14 @@ table.attendeesInformation tbody tr td span {
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.name {
     position: relative;
     float: left;
-    width: 360px;
+    width: 350px;
 }
 
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.option {
     position: relative;
-    float: left;
+    float: right;
+    width: 160px;
+    margin: 0 0 10px 0;
 }
 
 .bodysubpage .ja-content-main div.givingCatalog div.body div.items ul li span.amount {
