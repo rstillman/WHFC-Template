@@ -183,18 +183,7 @@
 
 /* Donate online */
 div.donateOnline {
-    width: 189px;
-    background: url("/images/background/donate-now-bg.png") repeat-x 0px 0px;
-}
-
-div.donateOnline p {
-    color: #B1CCD9;
-    padding-left: 2px;
-    font-size: 14px;
-}
-
-div.donateOnline img {
-    padding: 5px 0;
+    width: 208px;
 }
 
 /* Sponsor a child */
@@ -291,6 +280,18 @@ div.requestAdoptionInfo h4 {
 
 div.requestAdoptionInfo p {
     font-size: 14px;
+}
+
+div.requestAdoptionInfo a:link {
+	color: #fff;
+}
+
+div.requestAdoptionInfo a:visited {
+	color: #fff;
+}
+
+div.requestAdoptionInfo a:hover {
+	color: #fff;
 }
 
 /*** User profile pages ***/
@@ -810,26 +811,31 @@ table.inpage td {
     padding: 0.25em;
 }
 
-.callout a:link {
-padding: 0.75em 0; 
-font-size: 20px; 
-text-transform: uppercase; 
-font-weight: bold;
-color: #ec9f00; 
+p.callout {
+	font-size: 135%; 
+	color:#f1ac28;
+	text-transform: uppercase; 
+	font-weight: bold;
 }
 
-.callout a:visited {
-padding: 0.75em 0; 
-font-size: 20px; 
-text-transform: uppercase; 
-font-weight: bold;
-color: #ec9f00; 
+/* Sponsor a Child */
+div.sponsorChild {
+    width: 189px;
+    background: url("/images/background/sponsor-now-bg.png") repeat-x 0px 0px;
+	text-align:center;
 }
 
-.callout a:hover {
-padding: 0.75em 0; 
-font-size: 20px; 
-text-transform: uppercase; 
-font-weight: bold;
-color: #578cb7; 
+div.sponsorChild p {
+    color: #B1CCD9;
+    padding-left: 2px;
+    font-size: 14px;
+}
+div.sponsorChild a {
+    color: #fff;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+div.sponsorChild img {
+    padding: 5px 0;
 }
